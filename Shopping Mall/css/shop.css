@@ -1,0 +1,174 @@
+body {
+    margin : 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1200px;
+    height: 1100px;
+}
+
+#right {
+    float: left;
+    width: 150px;
+    height: 1000px; 
+}
+
+#r_fontawesome {
+    width: 20px;
+    height: 150px;
+    font-size: 20px;
+    padding: 100px 20px 0px 10px;
+}
+
+#r_fontawesome a {
+    text-decoration: none;
+    color: black;
+}
+
+#r_fontawesome i {
+    padding-top: 20px;
+}
+
+#mid {
+    float: left;
+    width: 800px;
+    height: 1000px;
+
+}
+
+#Mhead {
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 0px 10px 130px;
+    width: 620px;
+    height: 50px;
+    letter-spacing: 2px;
+    font-size: 25px;
+}   
+
+#jpg {
+    width: 800px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.glove {
+    width: 200px;
+    height: 200px;
+    margin: 0px 30px 80px 15px;
+    float: left;
+    border: 1.5px solid white;
+    opacity: 1;
+    transition: .5s;
+
+}
+
+.glove a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.glove:hover {
+    opacity: 0.7;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.glove img {
+    margin-bottom: 3px;
+}
+
+#price {
+    color: #999;
+}
+
+#per {
+    color : red;
+    font-size: large;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ left menu ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#left {
+    float: left;
+    margin: 0 auto;
+    width: 250px;
+    height: 1000px;
+}
+
+#left_menu {
+    margin-top: 40px;
+    text-align: center;
+    position: fixed;
+    padding: 15px;
+    left: 50px;
+    top: 50px;
+    width: 140px;
+    height: 420px;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer; /* 화살표 모양으로 바꾸기 */
+    opacity: 1;
+    transition: .5s;
+}
+
+#left_logo {
+    text-align: center;
+}
+
+#left_menu:hover {
+    background: rgba(255,255,255,0.8);
+    opacity: 1;
+    transition: .7s ease-in;
+}
+
+#menu_id a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding : 0px 5px 0px 5px;
+    
+}
+
+#menu_id a:hover {
+    color: orchid;
+    opacity: 1;
+    transition: .4s ease-in;
+}
+
+#descrip {
+    margin : 15px 15px 30px 15px;
+}
+
+#descrip p a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom : 0; 
+}
+
+#descrip a:hover {
+    font-size: 20px large;
+    font-weight: bolder;
+    color: orchid;
+    transition: .4s ease-in;
+}
+
+#fontawesome {
+    font-size: 30px;
+}
+
+#fontawesome a {
+    text-decoration: none;
+    color : black;
+    margin-right: 5px;
+}
+
+#fontawesome a:hover {
+    color: black;
+}

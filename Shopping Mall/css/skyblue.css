@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 1200px;
+    height: 5000px;
+}
+
+#right {
+    float: left;
+    width: 150px;
+    height: 5000px;
+}
+
+
+#SIDEMENU { 
+    margin : 0px; 
+    padding: 0px;  
+    position: absolute; 
+    right: 0px; 
+}
+
+.right_price {
+    font-size: 10px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.little_price {
+    color: black;
+    font-weight: bold;
+}
+
+.site {
+    padding: 6px 3px 0px 3px;
+}
+
+.site a {
+    text-decoration: none;
+}
+
+.site:hover {
+    border: 1px dotted #777;
+}
+
+#vie {
+    width: 800px;
+    text-align: center;
+}
+
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ mid  ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#footimg {
+    clear: both;
+    margin: 0 auto;
+    width: 700px;
+    height: 3700px;
+    
+}
+
+#four {
+    text-align: center;
+    width: 700px;
+    
+}
+
+#four img {
+    padding : 0px 20px 15px 0px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ mid  ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#mid {
+    float: left;
+    width: 800px;
+    height: 4900px;
+}
+
+#mainglove {
+    float: left;
+    width: 300px;
+    height: 300px;
+    padding : 50px 0px 0px 20px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ mid table  ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#productexp {
+    float: left;
+    width: 420px;
+    height: 550px;
+    padding : 50px 0px 0px 50px;
+    font-size : 11px;
+}
+
+#productexp td {
+    padding: 0px 50px 15px 0px;
+}
+
+
+#tabletitle {
+    font-size: 12px;
+    color : rgba(140,140,140,1);
+    
+}
+
+#prod td {
+    padding-top: 10px;
+    font-size: large;
+}
+
+#priceelete {
+    color: red;
+    font-size: 14px;
+}
+
+#pr_sale span {
+    font-size: 20px;
+}
+
+#pr {
+    font-size : 10px;
+    color: #777777;
+}
+
+
+#deli td {
+    padding-bottom: 40px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ mid size input  ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#size {
+    clear: both;
+    border-top: solid 1px rgba(200,200,200,0.7);
+    border-bottom: solid 1px rgba(200,200,200,0.7);
+    width: 420px;
+    height: 90px;
+    display: table;
+}
+
+#num {
+    display: table-cell;
+    vertical-align: middle;
+    padding : 0px 70px 0px 0px;
+    font-size: 12px;
+}
+
+#index {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+select {
+    height: 23px;
+    width: 250px;
+}
+/* ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ left ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+
+#left {
+    float: left;
+    margin: 0 auto;
+    width: 250px;
+    height: 1000px;
+}
+
+#left_menu {
+    margin-top: 40px;
+    text-align: center;
+    position: fixed;
+    padding: 15px;
+    left: 50px;
+    top: 50px;
+    width: 140px;
+    height: 420px;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer; /* 화살표 모양으로 바꾸기 */
+    opacity: 1;
+    transition: .5s;
+}
+
+#left_logo {
+    text-align: center;
+}
+
+#left_menu:hover {
+    background: rgba(255,255,255,0.8);
+    opacity: 1;
+    transition: .7s ease-in;
+}
+
+#menu_id a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding : 0px 5px 0px 5px;
+    
+}
+
+#menu_id a:hover {
+    color: orchid;
+    opacity: 1;
+    transition: .4s ease-in;
+}
+
+#descrip {
+    margin : 15px 15px 30px 15px;
+}
+
+#descrip p a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom : 0; 
+}
+
+#descrip a:hover {
+    font-size: 20px large;
+    font-weight: bolder;
+    color: orchid;
+    transition: .4s ease-in;
+}
+
+#fontawesome {
+    font-size: 30px;
+}
+
+#fontawesome a {
+    text-decoration: none;
+    color : black;
+    margin-right: 5px;
+}
+
+#fontawesome a:hover {
+    color: black;
+}

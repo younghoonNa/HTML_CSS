@@ -1,0 +1,212 @@
+body {
+    margin: 0 auto;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡlogin form ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#loginform {
+    border-top: 3px solid black;
+    border-left : 3px solid #EEE;
+    border-bottom : 3px solid #EEE;
+    border-right : 3px solid #EEE;
+
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+}
+
+#loginpage {
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    color: #999;
+
+    width: 300px;
+    height: 150px;
+    margin : 60px auto -120px auto; 
+    
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ input ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#inputt {
+    border-top: 3px solid #EEE;
+    font-size: 10px;
+    margin: 0 auto;
+    width: 300px;
+    height: 150px;
+    padding-top: 30px;
+}
+
+#ID {
+    border: solid #EEE 1px;
+    width : 290px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding : 19px 0 0 10px;
+}
+
+#ID span {
+    margin-right: 70px;
+}
+
+#ID label {
+    padding-left: 10px;
+}
+
+#ID label input{
+    border: 0;
+}
+
+#password {
+    width : 300px;
+    height: 50px;
+    border: solid #EEE 1px;
+    width : 290px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding : 19px 0 0 10px;
+}
+
+#password span {
+    margin-right: 25px;
+}
+
+#password label {
+    padding-left: 10px;
+}
+
+#pass{
+    border: 0;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ put login ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#putlogin {
+    cursor: pointer;
+    width: 300px;
+    height: 37px;
+    background-color: black;
+    margin: 0 auto;
+    padding-top : 15px;
+    text-align: center;
+    color : white;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border : 2px solid black;
+    opacity: 1;
+    transition: .5s;
+}
+
+#putlogin:hover{
+    width: 300px;
+    height: 37px;
+    background-color: white;
+    color: black;
+    border : 2px solid black;
+
+    opacity: 1;
+    transition: .7s ease-in;
+}
+
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ put login ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#inputjoinus {
+    font-size: 15px;
+    text-align: center;
+    margin : 0 auto;
+    background-color: #999;
+    width : 300px;
+    height: 37px;
+    padding-top : 15px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #999;
+    opacity: 1;
+    transition: .5s;
+}
+
+#inputjoinus:hover {
+    background-color: white;
+    border: 2px solid #999;
+    opacity: 1;
+    transition: .5s ease-in;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡleft menuㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+#left_menu {
+    margin-top: 40px;
+    text-align: center;
+    position: fixed;
+    padding: 15px;
+    left: 50px;
+    top: 50px;
+    width: 140px;
+    height: 420px;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer; /* 화살표 모양으로 바꾸기 */
+    opacity: 1;
+    transition: .5s;
+}
+
+#left_logo {
+    text-align: center;
+}
+
+#left_menu:hover {
+    background: rgba(255,255,255,0.8);
+    opacity: 1;
+    transition: .7s ease-in;
+}
+
+#menu_id a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding : 0px 5px 0px 5px;
+    
+}
+
+#menu_id a:hover {
+    color: orchid;
+    opacity: 1;
+    transition: .4s ease-in;
+}
+
+#descrip {
+    margin : 15px 15px 30px 15px;
+}
+
+#descrip p a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom : 0; 
+}
+
+#descrip a:hover {
+    font-size: 20px large;
+    font-weight: bolder;
+    color: orchid;
+    transition: .4s ease-in;
+}
+
+#fontawesome {
+    font-size: 30px;
+}
+
+#fontawesome a {
+    text-decoration: none;
+    color : black;
+    margin-right: 5px;
+}
+
+#fontawesome a:hover {
+    color: black;
+}

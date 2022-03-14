@@ -1,0 +1,280 @@
+<!DOCTYPE html> 
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>회원가입</title>
+    <link href="css/joinus.css" rel="stylesheet" type="text/css">
+
+    
+                
+    <!-- 버튼 클릭시 알람창 호출-->
+    <script> function login_alt(){ alert('로그인이 불가능한 사이트 입니다.'); } </script>
+    <script> function login_MP(){ alert('로그인이 되어있지 않습니다.'); } </script>
+    <script> function login_nop(){ alert('회원가입이 불가능한 페이지 입니다.'); } </script>
+</head>
+
+<body>
+<div id = wrap>
+    <div id = left>
+        <div id = left_menu>
+            <div id = left_logo>
+                <a href="index.html"><img src = "img/diabitt.png" width = 120px height= 120px></a>
+            </div>
+            
+            <div id = menu_id>
+                <a id = login href= login.html>LOGIN</a> / <a id = joinus href="joinus.html">JOIN US</a> <br>
+                <a id = mypage href=# onclick="javascript:login_MP()">MYPAGE</a> / <a id = basket href="#" onclick="javascript:login_MP()">BASKET</a> <br>
+            </div>
+        
+            <div id = descrip>
+                <p id = aboutus>
+                    <a href="#">ABOUT US</a>
+                </p>
+                        
+                <p id = shop>
+                    <a href="shop.html">STORE</a>
+                </p>
+            </div>
+        
+            <div id = fontawesome>
+                <a href = "https://www.facebook.com/diabeatofficial/"><i class="fab fa-facebook"></i></a>
+                <a href = "https://www.instagram.com/diabeat_official/"><i class="fab fa-instagram"></i></a> 
+                <a href = "https://bit.ly/2QEbrzu"><i class="fab fa-youtube"></i></a> 
+                        
+            </div>
+                    
+        </div> <!-- left menu-->        
+    </div> <!-- left end -->
+
+    <div id = mid>
+        <div id = title>
+            
+            <div id = join>
+                <h3>회원 가입</h3>
+            </div>  
+            
+            <div id = table>
+                <div id = ta_left>회원가입<span class = red>*</span></div>
+                <div id = ta_right>
+                    <input type="radio" name="gender" value="m" />개인회원
+                    <input type="radio" name="gender" value="m" />사업자회원
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div id = basic_info>
+
+            <div id = info_header>
+                
+                <div id = header_left>
+                    기본정보
+                </div>
+
+                <div id = header_right>
+                        <span class = red>*</span> 필수 입력사항
+                </div>
+            </div> <!-- info header-->
+
+            <div id = info_mid>
+
+                <div class = long_rct>
+
+                    <div id = Lone class = Rct>
+                        <div class = left_class>아이디<span class = red>*</span></div>
+                    </div>
+
+                    <div id = Rone class = R_rct>
+                        <input type="text" size="15" value="">
+                          (영문소문자/숫자, 4~16자)
+                    </div>
+                
+                </div> <!-- long _ rct  1 -->
+
+                <div class = long_rct>
+                                
+                    <div id = Ltwo class = Rct>
+                        <div class = left_class>비밀번호<span class = red>*</span></div>
+                    </div>
+
+                    <div id = Rtwo class = R_rct>                            
+                        <input type="password"  size="15" value="">                                            
+                        (영문 대소문자/숫자/특수문자 중 2가지 이상 조합, 10자~16자)    
+                    </div>
+                    
+                </div>  <!-- long _ rct  2 -->            
+
+                <div class = long_rct>
+                    <div id = Lthr class = Rct>
+                        <div class = left_class>비빌번호 확인 질문<span class = red>*</span></div>
+                    </div>
+
+                    <div id = Rthr class = R_rct>                        
+                        <select name="name">
+                            <option value="option"selected="selected">- [필수] 비밀번호 확인답변을 선택 해주세요. -</option>
+                            <option value="7">창의코딩웹 교수님 성함은?</option>
+                            <option value="8" >내 학과 혹은 학번은?</option>
+                            <option value="9">내 이름은?</option>
+                            <option value="10">창의코딩웹 중간고사 점수는?</option>
+                        </select>             
+                    </div>
+                    
+                </div>  <!-- long _ rct 3 -->
+
+                <div class = long_rct>
+                    <div id = Lten class = Rct>
+                        <div class = left_class>비빌번호 확인 답변<span class = red>*</span></div>
+                    </div>
+
+                    <div id = Rten class = R_rct>                    
+                        <input type="password"  size="15" value="">              
+                    </div>
+                            
+                    </div>  <!-- long _ rct 1000000000000000000000 -->
+
+
+                <div class = long_rct>
+                    <div id = Lfiv class = Rct>
+                        <div class = left_class>이름<span class = red>*</span></div>
+                    </div>
+        
+                    <div id = Rfiv class = R_rct>
+                        <input type="text" size="15" value="">
+                    </div>
+                            
+                </div>  <!-- long _ rct 5 -->
+
+                <div class = long_rct>
+                    <div id = Lsix class = Rct>
+                        <div class = left_class>일반전화<span class = red>*</span></div>
+                    </div>
+            
+                    <div id = Rsix class = R_rct>
+                        <select name="number">
+                                <option value="option"selected="selected">02</option>
+                                <option value="7">033</option>
+                                <option value="8" >070</option>
+                                <option value="9">00700</option>
+                                <option value="10">1577</option>
+                        </select>    
+                         -  
+                        <input type="text" size="5" value=""> - 
+                        <input type="text" size="5" value="">
+                    </div>
+                                
+                </div>  <!-- long _ rct 6 -->
+
+
+                <div class = long_rct>
+                    <div id = Lsev class = Rct>
+                        <div class = left_class>휴대전화<span class = red>*</span></div>
+                    </div>
+                
+                    <div id = Rsev class = R_rct>
+                        <select name="numberPhone">
+                            <option value="option"selected="selected">010</option>
+                            <option value="7">011</option>
+                            <option value="8" >101</option>
+                            <option value="9">00700</option>
+                            <option value="10">1577</option>
+                        </select>    
+                         -  
+                        <input type="text" size="5" value=""> - 
+                        <input type="text" size="5" value="">
+                    </div>
+                                                                    
+                </div>  <!-- long _ rct 7 -->
+
+
+                <div class = long_rct>
+                    <div id = Leig class = Rct>
+                        <div class = left_class>이메일<span class = red>*</span></div>
+                    </div>
+
+                    <div id = Reig class = R_rct>
+                        <input type="text" size="10" value=""> @
+
+                        <select name="address">
+                            <option value="option"selected="selected">naver.com</option>
+                            <option value="7">daum.net</option>
+                            <option value="8" >dothome.net</option>
+                            <option value="9">kakao.com</option>
+                            <option value="10">gmail.com</option>
+                            <option value="10">hallym.ac.kr</option>
+                        </select>    
+                        
+                    </div>
+                                        
+                </div>  <!-- long _ rct 8-->
+
+
+                <div class = long_rct>
+                    <div id = Lnin class = Rct>
+                        <div class = left_class>생일<span class = red>*</span></div>
+                    </div>
+                        
+                    <div id = Rnin class = R_rct>
+                        <select name="month">
+                            <option value="option"selected="selected">1월</option>
+                            <option value="7">2월</option>
+                            <option value="7">3월</option>
+                            <option value="7">4월</option>
+                            <option value="7">5월</option> 
+                            <option value="7">6월</option>
+                            <option value="7">7월</option>
+                            <option value="7">8월</option>
+                            <option value="7">9월</option>
+                            <option value="7">10월</option>
+                            <option value="7">11월</option>
+                            <option value="7">12월</option>
+                        </select>
+
+                        <select name="day">
+                            <option value="option"selected="selected">1일</option>
+                            <option value="7">2일</option>
+                            <option value="7">3일</option>
+                            <option value="7">4일</option>
+                            <option value="7">5일</option>
+                            <option value="7">6일</option>
+                            <option value="7">7일</option>
+                            <option value="7">8일</option>
+                            <option value="7">9일</option>
+                            <option value="7">10일</option>
+                            <option value="7">11일</option>
+                            <option value="7">12일</option>
+                            <option value="7">13일</option>
+                            <option value="7">14일</option>
+                            <option value="7">15일</option>
+                            <option value="7">16일</option>
+                            <option value="7">17일</option>
+                            <option value="7">18일</option>
+                            <option value="7">19일</option>
+                            <option value="7">20일</option>
+                            <option value="7">21일</option>
+                            <option value="7">22일</option>
+                            <option value="7">23일</option>
+                            <option value="7">24일</option>
+                            <option value="7">25일</option>
+                            <option value="7">26일</option>
+                            <option value="7">27일</option>
+                            <option value="7">28일</option>
+                            <option value="7">29일</option>
+                            <option value="7">30일</option>
+                            <option value="7">31일</option>                        
+                        </select>   
+                    </div> 
+                                            
+                </div>  <!-- long _ rct 9 -->                                                                                             
+            </div> <!-- info mid -->
+        </div> <!-- basic info -->
+
+        <div id = base_footer onclick="javascript:login_nop()">
+           가입
+        </div>
+    </div> <!-- mid end-->
+
+
+</div> 
+</body>
+</html>

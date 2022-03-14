@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <meta charset="uft-8">
+    <title>LOGIN</title>
+    <link href = "css/login.css" rel = stylesheet type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+    <!-- 버튼 클릭시 알람창 호출-->
+    <script> function login_alt(){ alert('로그인이 불가능한 사이트 입니다.'); } </script>
+    <script> function login_MP(){ alert('로그인이 되어있지 않습니다.'); } </script>
+</head>
+
+<body>
+<div id = wrap>
+    <div id = loginform>
+
+        <div id = loginpage>
+            LOGIN PAGE
+        </div>
+
+        <div id = inputt>
+            <div id = ID>
+                <label>
+                    <span>ID</span>
+                    <input type = "text" size = 15 value="">
+                </label><br>
+            </div>
+                
+            <div id = password>
+                <label for = "pass">
+                    <span>PASSWORD  </span>
+                </label>
+
+                <label><input id = "pass" type="password" size = 15 value=""></label>
+
+            </div>
+
+            <div id = putlogin onclick="javascript:login_alt()">
+                LOGIN
+            </div>
+
+            <div id = inputjoinus onclick="location.href = 'joinus.html'">
+                JOIN US
+            </div>
+
+        </div> <!-- INPUTT FORM -->
+
+
+    </div> <!-- LOGIN FORM -->
+
+    <div id = left_menu>
+            <div id = left_logo>
+                    <a href="index.html"><img src = "img/diabitt.png" width = 120px height= 120px></a>
+            </div>
+            <div id = menu_id>
+                <a id = login href= login.html>LOGIN</a> / <a id = joinus href="joinus.html">JOIN US</a> <br>
+                <a id = mypage href=# onclick="javascript:login_MP()">MYPAGE</a> / <a id = basket href="#" onclick="javascript:login_MP()">BASKET</a> <br>
+            </div>
+
+            <div id = descrip>
+                <p id = aboutus>
+                    <a href="#">ABOUT US</a>
+                </p>
+                
+                <p id = shop>
+                    <a href="shop.html">STORE</a>
+                </p>
+            </div>
+
+            <div id = fontawesome>
+                <a href = "https://www.facebook.com/diabeatofficial/"><i class="fab fa-facebook"></i></a>
+                <a href = "https://www.instagram.com/diabeat_official/"><i class="fab fa-instagram"></i></a> 
+                <a href = "https://bit.ly/2QEbrzu"><i class="fab fa-youtube"></i></a> 
+                
+            </div>
+            
+        </div> <!-- left menu-->    
+    </div> <!-- wrap -->
+
+</body>
+</html>

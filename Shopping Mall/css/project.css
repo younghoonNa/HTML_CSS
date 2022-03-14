@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+
+}
+
+.nav-up {
+    top: -80px;
+    transition: 0.5s;
+}
+
+#wrap {
+    overflow: hidden;
+    margin : 0 auto;
+    width : 1250px;
+    height: 3420px;
+
+}
+
+/* ㅡㅡㅡㅡㅡㅡ main images zip ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#maintema {
+    text-align: center;
+    margin : 0px;
+    width : 1250px;
+    height: 3420px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡ main img 1intro ㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#mainimg1 {
+    width: 1250px;
+    height: 700px;
+    background-image: url(img/Na4_4.jpg);
+    background-size: cover;
+    background-color: white;
+    opacity: 0.9;
+}
+
+
+#descrip1 {
+    padding: 150px 0px 0px 700px;
+    width: 500px;
+    height: 500px;
+}
+
+#sec1, .int{
+    letter-spacing: 0.7px;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+}
+
+
+#title1 {
+    letter-spacing: 3.7px;
+    margin: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#putshop, .move {
+    margin : 30px auto 0px auto;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center; 
+    padding-top : 6px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.3);
+    opacity: 1;
+    transition: .5s;
+}
+#putshop a, .move a {
+    text-decoration: none;
+    color: black;
+}   
+
+#putshop:hover, .move:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,1);
+    border: 2px solid white;
+    transition: 0.7s ease-in;
+}
+
+/* ㅡㅡㅡㅡㅡㅡ main img2 ㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#mainimg2 {
+    
+    width: 1250px;
+    height: 700px;
+    background-image: url(img/Na6.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+#exp2 {
+    position: relative;
+    top : 250px;
+    left : 750px;
+    width: 500px;
+    height: 300px;
+}
+
+#exp2 .int {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#img2page {
+    margin-bottom: 10px;
+}
+
+/* ㅡㅡㅡㅡㅡㅡ main img3 ㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#mainimg3 {
+    width: 1250px;
+    height: 700px;
+    background-image: url(img/Na7_2.jpg);
+    background-size: cover;
+    background-color: #FFF;
+    opacity: 0.5;
+    transition: 2s ease;
+}
+
+#mainimg3:hover{
+    opacity: 1;
+    transition: 2s ease-in;
+}
+
+#exp3 {
+    font-weight: bold;
+    font-size : 40px;    
+    letter-spacing: 3px;
+    color: white;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    top : 40%;
+    left: 30%;
+
+}
+
+#mainimg4 {
+    width: 1250px;
+    height: 700px;
+    background-image: url(img/KimS1.jpg);
+    background-size: cover;
+}
+
+#mainimg5 {
+    width: 1250px;
+    height: 620px;
+    background-image: url(img/kim1_2.jpg);
+    background-size: cover;
+
+}
+
+
+/* ㅡㅡㅡㅡㅡㅡ left menu ㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#left_menu {
+    margin-top: 40px;
+    text-align: center;
+    position: fixed;
+    padding: 15px;
+    left: 50px;
+    top: 50px;
+    width: 140px;
+    height: 420px;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer; /* 화살표 모양으로 바꾸기 */
+    opacity: 1;
+    transition: .5s;
+}
+
+#left_logo {
+    text-align: center;
+}
+
+#left_menu:hover {
+    background: rgba(255,255,255,0.8);
+    opacity: 1;
+    transition: .7s ease-in;
+}
+
+#menu_id a {
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding : 0px 5px 0px 5px;
+    
+}
+
+#menu_id a:hover {
+    color: orchid;
+    opacity: 1;
+    transition: .4s ease-in;
+}
+
+#descrip {
+    margin : 15px 15px 30px 15px;
+}
+
+#descrip p a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom : 0; 
+}
+
+#descrip a:hover {
+    font-size: 20px large;
+    font-weight: bolder;
+    color: orchid;
+    transition: .4s ease-in;
+}
+
+#fontawesome {
+    font-size: 30px;
+}
+
+#fontawesome a {
+    text-decoration: none;
+    color : black;
+    margin-right: 5px;
+}
+
+#fontawesome a:hover {
+    color: black;
+}
+
+
+
+/* ㅡㅡㅡㅡㅡㅡ nav_menu ㅡㅡㅡㅡㅡㅡㅡㅡ */
+
+#nav_right {
+    position: fixed;
+    z-index: 100;
+    top: 50%; /* 중간에 집어넣기 */
+    margin-top: -50px; /*해보니까 되더라구요 */
+    right : 34px;
+    width: 60px;
+}
+
+/*
+.button {
+    background-color: rgba(255,255,255,0);
+    border: 0;
+    font-size : 20px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+*/
+#nav_right li {
+    cursor: pointer; /* 화살표 모양으로 바꾸기 */
+    margin-bottom: 10px;
+
+}
+
+#nav_right li a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+#nav_right li a:hover{
+    color: orchid;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#nav_right li a:active {
+    font-size : 17px;
+    color: black;
+    font-weight: bolder;
+}

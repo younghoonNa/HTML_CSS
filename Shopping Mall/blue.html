@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+    <meta charset="utf-8">
+    <title>디아비트 엘리트 하이브리드 사이언 골키퍼장갑</title>
+    <link href="css/blue.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+
+        <!-- 슬라이딩 사용 -->
+        <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link href="css/basic_slider.css" rel="stylesheet" type="text/css"> 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/basic_slider_jquery.js"></script>
+        <script src="js/basic_slider_js.js"></script>
+
+        <!-- 스크롤 애니메이션 슬라이딩 -->
+        <script type="text/javascript">
+
+            var stmnLEFT = 30; // 오른쪽 여백 
+            var stmnGAP1 = 0; // 위쪽 여백 
+            var stmnGAP2 = 100; // 스크롤시 브라우저 위쪽과 떨어지는 거리 
+            var stmnBASE = 200; // 스크롤 시작위치 
+            var stmnActivateSpeed = 20; //스크롤을 인식하는 딜레이 (숫자가 클수록 느리게 인식)
+            var stmnScrollSpeed = 20; //스크롤 속도 (클수록 느림)
+            var stmnTimer; 
+                    
+            function RefreshStaticMenu() { 
+                var stmnStartPoint, stmnEndPoint; 
+                stmnStartPoint = parseInt(document.getElementById('SIDEMENU').style.top, 10); 
+                stmnEndPoint = Math.max(document.documentElement.scrollTop, document.body.scrollTop) + stmnGAP2; 
+                if (stmnEndPoint < stmnGAP1) stmnEndPoint = stmnGAP1; 
+                    if (stmnStartPoint != stmnEndPoint) { 
+                        stmnScrollAmount = Math.ceil( Math.abs( stmnEndPoint - stmnStartPoint ) / 15 ); 
+                        document.getElementById('SIDEMENU').style.top = parseInt(document.getElementById('SIDEMENU').style.top, 10) + ( ( stmnEndPoint<stmnStartPoint ) ? -stmnScrollAmount : stmnScrollAmount ) + 'px'; 
+                        stmnRefreshTimer = stmnScrollSpeed; 
+                   }
+                    stmnTimer = setTimeout("RefreshStaticMenu();", stmnActivateSpeed); 
+                } 
+                function InitializeStaticMenu() {
+                    document.getElementById('SIDEMENU').style.right = stmnLEFT + 'px';  //처음에 오른쪽에 위치. 
+                    document.getElementById('SIDEMENU').style.top = document.body.scrollTop + stmnBASE + 'px'; 
+                    RefreshStaticMenu();
+                }
+        </script>    
+                
+    <!-- 버튼 클릭시 알람창 호출-->
+    <script> function login_alt(){ alert('로그인이 불가능한 사이트 입니다.'); } </script>
+    <script> function login_MP(){ alert('로그인이 되어있지 않습니다.'); } </script>
+                
+<head>
+
+<body onload="InitializeStaticMenu();">
+<div id = wrap>
+    <div id = left>
+        <div id = left_menu>
+            
+            <div id = left_logo>
+                <a href="index.html"><img src = "img/diabitt.png" width = 120px height= 120px></a>
+            </div>
+            
+            <div id = menu_id>
+                <a id = login href= login.html>LOGIN</a> / <a id = joinus href="joinus.html">JOIN US</a> <br>
+                <a id = mypage href=# onclick="javascript:login_MP()">MYPAGE</a> / <a id = basket href="#" onclick="javascript:login_MP()">BASKET</a> <br>
+            </div>
+        
+            <div id = descrip>
+                <p id = aboutus>
+                    <a href="#">ABOUT US</a>
+                </p>
+                        
+                <p id = shop>
+                    <a href="shop.html">STORE</a>
+                </p>
+            </div>
+        
+            <div id = fontawesome>
+                <a href = "https://www.facebook.com/diabeatofficial/"><i class="fab fa-facebook"></i></a>
+                <a href = "https://www.instagram.com/diabeat_official/"><i class="fab fa-instagram"></i></a> 
+                <a href = "https://bit.ly/2QEbrzu"><i class="fab fa-youtube"></i></a> 
+                        
+            </div>                    
+        </div> <!-- left menu-->            
+    </div> <!-- left -->
+
+    <div id = mid>
+        <div id = mainglove>
+                <div id="slider">
+                        <a href="#" class="control_next">&gt;</a>
+                        <a href="#" class="control_prev">&lt;</a>
+    
+                        <ul>
+                            <li><a href=#><img src="glove/blue.jpg" width="300px" height="300px"></a></li>
+                            <li><a href=#><img src="glove/blue1.jpg" width="300px" height="300px"></a></li>
+                            <li><a href=#><img src="glove/blue2.jpg" width="300px" height="300px"></a></li>
+                            <li><a href=#><img src="glove/blue3.jpg" width="300px" height="300px"></a></li>
+                        </ul>  
+                
+                    </div>
+        </div>
+
+        <div id = productexp>
+            <table border="0">
+                <tr >
+                    <td id = tabletitle colspan = 2>디아비트 엘리트 하이브리드 사이언 골키퍼장갑</td>
+                </tr>
+
+                <tr id = prod>
+                    <td>상품명</td>
+                    <td>디아비트 엘리트 하이브리드 사이언 골키퍼장갑</td>
+                </tr>
+                <tr> <!-- 첫번째 줄 시작-->
+                    <td>제조사</td>
+                    <td>디아비트 자체제작</td>
+                <tr> <!-- 첫번째 줄 시작-->
+
+                <tr> <!-- 첫번째 줄 시작-->
+                    <td>원산지</td>
+                    <td>파키스탄</td>
+                <tr> <!-- 첫번째 줄 시작-->
+
+                <tr id = priceelete> <!-- 첫번째 줄 시작-->                    
+                    <td>판매가</td>
+                    <td>58,000원</td>
+                <tr> <!-- 첫번째 줄 시작-->                    
+                    <td>트랜드</td>
+                    <td>기본 트랜드</td>
+                <tr> <!-- 첫번째 줄 시작-->                        
+                    <td>국내/해외 배송</td>
+                    <td>국내 배송</td>
+                <tr> <!-- 첫번째 줄 시작-->      
+                    <td>배송방법</td>
+                    <td>택배</td>
+                <tr id = deli> <!-- 첫번째 줄 시작--> 
+                    <td>배송비</td>
+                    <td> 3,000원</td>
+                </tr><!-- 첫번째 줄 끝-->
+
+            </table>
+
+
+            <div id = size>
+                <div id = num>사이즈</div>
+
+                <div id = index>
+                    <select name="selsize">
+                        <option value="option"selected="selected">- [필수] 옵션을 선택해 주세요 -</option>
+                        <option value="7">7</option>
+                        <option value="8" >8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>  
+                </div>
+                
+                         
+            </div>
+        
+        </div>
+
+    
+        <div id = footimg>
+            <div id = four>
+                <img src = "glove/blue_1.jpg" width="320px" height="320px">
+                <img src = "glove/blue1_1.jpg" width="320px" height="320px">
+                <img src = "glove/blue2_1.jpg" width="320px" height="320px">
+                <img src = "glove/blue3_1.jpg" width="320px" height="320px">
+            </div>
+
+            <img src = "description/explain_blue.jpg" width="700px" height="700px">
+            <img src = "description/explain_blue1.jpg" width="700px" height="700px">
+
+            <!-- 가이드 -->
+            <img src = "description/sizeguide.jpg" width="700px" height="430px">
+            <img src = "description/sns.jpg" width="700px" height="500px">
+            <img src = "description/read.jpg" width="700px" height="700px">
+        </div>
+
+        <div id = vie>
+            <iframe width="800" height="500" 
+                src="https://www.youtube.com/embed/8AIK72O_evA" 
+                frameborder="0" allow="accelerometer; autoplay; 
+                ncrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    <div id = right>
+            <div id = SIDEMENU>
+                <div id = print class = right_price>
+                    이 제품은 어떠세요?
+                </div>
+    
+                <div id = goliat class = site>
+                    <a href= "goliat.html">
+                        <img src = "glove/goliat.jpg" width="100px" height="100px">
+                        <div id = r_price class = right_price>
+                            디아비트 골리앗 골...<br>
+                            <span class = little_price>66,000원</span>
+                        </div>
+                
+                    </a>
+                   
+                </div> 
+                
+                <div id = blue class = site>
+                    <a href= "blue.html">
+                        <img src = "glove/blue.jpg" width="100px" height="100px">
+                        <div id = r_price class = right_price>
+                            디아비트 블루 하이...<br>
+                            <span class = little_price>58,000원</span>
+                        </div>
+                    </a>
+                    
+                </div> 
+                
+                <div id = pink class = site>
+                    <a href= "pink.html">
+                        <img src = "glove/pink.jpg" width="100px" height="100px"></img>
+                        <div id = r_price class = right_price>
+                            디아비트 핑크 하이...<br>
+                            <span class = little_price>58,000원</span>
+                        </div>
+                    </a>
+                    
+                </div> 
+            </div>
+    
+        </div> <!-- right -->
+
+</div>
+</body>
+    
+</html>
